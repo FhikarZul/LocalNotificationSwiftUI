@@ -14,6 +14,7 @@
 		8D4B8FC728C19A2D00E5D51C /* LocalNotificationSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B8FC628C19A2D00E5D51C /* LocalNotificationSwiftUITests.swift */; };
 		8D4B8FD128C19A2D00E5D51C /* LocalNotificationSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B8FD028C19A2D00E5D51C /* LocalNotificationSwiftUIUITests.swift */; };
 		8D4B8FD328C19A2D00E5D51C /* LocalNotificationSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B8FD228C19A2D00E5D51C /* LocalNotificationSwiftUIUITestsLaunchTests.swift */; };
+		8D4B8FE028C19BD200E5D51C /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B8FDF28C19BD200E5D51C /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8D4B8FCC28C19A2D00E5D51C /* LocalNotificationSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalNotificationSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4B8FD028C19A2D00E5D51C /* LocalNotificationSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationSwiftUIUITests.swift; sourceTree = "<group>"; };
 		8D4B8FD228C19A2D00E5D51C /* LocalNotificationSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D4B8FDF28C19BD200E5D51C /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				8D4B8FB528C19A2B00E5D51C /* LocalNotificationSwiftUIApp.swift */,
+				8D4B8FDF28C19BD200E5D51C /* NotificationManager.swift */,
 				8D4B8FB728C19A2B00E5D51C /* ContentView.swift */,
 				8D4B8FB928C19A2D00E5D51C /* Assets.xcassets */,
 				8D4B8FBB28C19A2D00E5D51C /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D4B8FB828C19A2B00E5D51C /* ContentView.swift in Sources */,
+				8D4B8FE028C19BD200E5D51C /* NotificationManager.swift in Sources */,
 				8D4B8FB628C19A2B00E5D51C /* LocalNotificationSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

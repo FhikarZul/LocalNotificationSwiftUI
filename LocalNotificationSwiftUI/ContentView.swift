@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var nm = NotificationManager()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Button("Request Permission"){
+                nm.getPermission()
+            }
+            Button("Schedule Notification"){
+                nm.setNotification()
+            }
+        }
     }
 }
 
